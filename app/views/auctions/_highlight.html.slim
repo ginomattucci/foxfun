@@ -28,14 +28,7 @@
     .box-info.-box-info-notify
       .box-notify-text.u-textUp.u-textBold PONTOS
     .box-price.-box-price-notify
-      span.box-price-big.-box-price-big-notify.js-priceValue = number_to_currency @auction.partial_value / 100.0
-      .box-notify-discount
-        i.fa.fa-tag.u-marginRgt5
-        span.u-textBold.js-discount = "#{@auction.discount_percentage}%"
-        span.small  de desconto
-    .box-marketValue.u-textBold.u-textCenter
-      span.u-textWhite = "valor de mercado: "
-      span.u-textWhite = number_to_currency @auction.market_price
+      span.box-price-big.-box-price-big-notify.js-priceValue = @auction.partial_value
       .box-lastBidder
         .box-lastBidder-name.js-currentWinner = @auction.decorate.last_bidder
         .box-lastBidder-label Vencedor
