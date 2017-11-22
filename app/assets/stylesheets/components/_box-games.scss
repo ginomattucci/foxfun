@@ -378,7 +378,7 @@
 .-box-notify-danger {
   color: $danger;
   background: $boxDanger-background;
-  border-color: $color-yellow;
+  border-color: $$brand-yellow;
   min-height: 184px;
 
   .box-notify-text {
@@ -386,7 +386,7 @@
   }
 
   .-box-info-notify {
-    background: $color-yellow;
+    background: $$brand-yellow;
     color: #fff;
   }
 
@@ -397,7 +397,7 @@
   .-box-price-big-notify {
     font-size: 2.5rem;
     line-height: 2.5rem;
-    color: $color-yellow;
+    color: $$brand-yellow;
   }
 
   .-box-price-small-notify {
