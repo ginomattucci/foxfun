@@ -31,10 +31,10 @@
     .box-info.-box-info-notify
       .box-notify-text.u-textUp.u-textBold QUEM GANHOU
     .box-price.-box-price-notify
-      span.box-lastBidder-name.js-currentWinner = auction.decorate.last_bidder
+      .box-lastBidder-name.js-currentWinner = auction.decorate.last_bidder
       .box-lastBidder
-        .box-price-big.-box-price-big-notify.js-priceValue = auction.partial_value 
-        .box-lastBidder-label PONTOS BÔNUS
+        .box-price-big.-box-price-big-notify.js-priceValue = auction.partial_value
+        .box-lastBidder-label + PONTOS BÔNUS
 
 / box de adiado
 - content_for :fail_box, flush: true

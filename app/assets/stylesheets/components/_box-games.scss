@@ -378,6 +378,7 @@
 .-box-notify-danger {
   color: $danger;
   background: $boxDanger-background;
+  border-color: $color-yellow;
   min-height: 184px;
 
   .box-notify-text {
@@ -385,7 +386,7 @@
   }
 
   .-box-info-notify {
-    background: $boxDanger-background;
+    background: $color-yellow;
     color: #fff;
   }
 
@@ -396,7 +397,7 @@
   .-box-price-big-notify {
     font-size: 2.5rem;
     line-height: 2.5rem;
-    color: #fff;
+    color: $color-yellow;
   }
 
   .-box-price-small-notify {
@@ -429,7 +430,7 @@
 .box-lastBidder {
   font-size: 2.9rem;
   line-height: 1rem;
-  color: #fff;
+  color: $brand-gray;
   margin-top: 5px;
 }
 
