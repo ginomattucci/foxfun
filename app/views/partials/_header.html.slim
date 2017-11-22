@@ -17,19 +17,14 @@ header.header
             - if user_signed_in?
               .header-widget
                 .header-discount
-                  .small viraticket
+                  .small FoxPoints
                   h3 = number_to_currency current_user.discount_partial_value
                 .header-credit
                   .small FoxBits
                   h3.u-textYellow
-                    span.u-textBold V
+                    span.u-textBold F
                     i.fa.fa-btc.u-fontSize110 &nbsp;
                     span.js-user-credits = current_user.credits
-              li.menu-item.-buy
-                = link_to plans_path, class: 'btn -btn-line-header -btn-superBits' do
-                  span.fa.fa-shopping-cart.text-larger.u-marginRgt5
-                  span.u-textBold V
-                  span.fa.fa-btc
               li.menu-item.dropdown-toggle
                 a.btn.-btn-line-header.u-textLow.js-gameStarted
                   span.fa.fa-user.u-marginRgt10
@@ -59,7 +54,7 @@ header.header
           li.menu-item
             h6.u-noMargin.text-yellow.menu-link.js-gameStarted
               = current_user.username
-              span.u-textBold  - V
+              span.u-textBold  - F
               i.fa.fa-btc.u-fontSize110 &nbsp;
               span.js-user-credits = current_user.credits
           li.menu-item

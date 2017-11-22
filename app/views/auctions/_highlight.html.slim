@@ -210,7 +210,7 @@ section.js-box.js-counterBox.highlight[id="bidbox-#{@auction.id}" data-timer="#{
                 span Seu saldo:
               td[style="text-align: right"]
                 span.u-textYellow.u-textBold
-                  |  V
+                  |  F
                   i.fa.fa-bitcoin
                   span.js-user-credits = " #{current_user.credits}"
           tr
@@ -218,7 +218,7 @@ section.js-box.js-counterBox.highlight[id="bidbox-#{@auction.id}" data-timer="#{
               span Custo de inscrição:
             td[style="text-align: right"]
               span.text-yellow.u-textBold
-                |  V
+                |  F
                 i.fa.fa-bitcoin
                 = " #{@auction.join_cost_in_credits} "
           tr
@@ -288,7 +288,7 @@ section.js-box.js-counterBox.highlight[id="bidbox-#{@auction.id}" data-timer="#{
                 span Seu saldo:
               td[style="text-align: right"]
                 span.u-textYellow.u-textBold
-                  |  V
+                  |  F
                   i.fa.fa-bitcoin
                   span.js-user-credits = " #{current_user.credits}"
           tr
@@ -296,7 +296,7 @@ section.js-box.js-counterBox.highlight[id="bidbox-#{@auction.id}" data-timer="#{
               span Custo de re-entrada:
             td[style="text-align: right"]
               span.text-yellow.u-textBold
-                |  V
+                |  F
                 i.fa.fa-bitcoin
                 = " #{@auction.join_cost_in_credits} "
           - if @auction.max_attempts.to_i > 0

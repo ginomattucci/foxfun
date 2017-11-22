@@ -1,3 +1,4 @@
+//essa parte é so o dropdown do menu do usuario
 .dropdown {
   position: absolute;
   background: $dropdown-background;
@@ -15,6 +16,7 @@
 
 .dropdown-item {
   text-align: center;
+  color: $brand-yellow;
 
   &:not(:last-child) {
     border-bottom: 1px solid $brand-blue;
@@ -33,7 +35,7 @@
   }
 }
 
-// cor do fundo header do dropdown e busca 
+// cor do fundo header do dropdown e busca
 .dropdown-toggle:hover {
   .submenu-link {
    background: $brand-blueDark;
