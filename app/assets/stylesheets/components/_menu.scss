@@ -232,6 +232,7 @@
 
   .menu.-mobile.is-open {
     display: block;
+    background-color: $brand-yellow;
   }
 }
 
@@ -250,7 +251,7 @@
 
   span.current {
     padding: 10px 15px;;
-    background: #161b32;
+    background: $brand-blue;
     border-radius: 6px;
     color: $brand-yellow;
     margin-right: 5px;
