@@ -33,10 +33,10 @@
   }
 }
 
-
+// cor do fundo header do dropdown e busca 
 .dropdown-toggle:hover {
   .submenu-link {
-   background: #232b50;
+   background: $brand-blueDark;
   }
 
   .dropdown {
