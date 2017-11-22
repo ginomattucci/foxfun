@@ -132,7 +132,7 @@
 .box-price {
   text-align: center;
   font-weight: 700;
-  font-size: 1.4rem;
+  font-size: 2rem;
   padding: 2px 0;
   color: $box-price-color;
 
@@ -377,8 +377,9 @@
 
 .-box-notify-danger {
   color: $danger;
-  background: $boxDanger-background;
+  background: #FFF;
   border-color: $brand-yellow;
+  border: 1px
   min-height: 184px;
 
   .box-notify-text {
@@ -395,8 +396,8 @@
   }
 
   .-box-price-big-notify {
-    font-size: 2.5rem;
-    line-height: 2.5rem;
+    font-size: 4.5rem;
+    line-height: 4rem;
     color: $brand-yellow;
   }
 
@@ -428,15 +429,15 @@
 
 // # ========== Last Bidder
 .box-lastBidder {
-  font-size: 2.9rem;
-  line-height: 1rem;
+  font-size: 3.5rem;
+  line-height: 1.5rem;
   color: $brand-gray;
   margin-top: 5px;
 }
 
 .box-lastBidder-label {
   font-size: 1rem;
-  color: #FFF;
+  color: $brand-gray;
   text-transform: uppercase;
 }
 
