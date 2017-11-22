@@ -29,12 +29,12 @@
 - content_for :finished_box, flush: true
   .box-notify.-box-notify-danger
     .box-info.-box-info-notify
-      .box-notify-text.u-textUp.u-textBold PONTOS
+      .box-notify-text.u-textUp.u-textBold QUEM GANHOU
     .box-price.-box-price-notify
-      span.box-price-big.-box-price-big-notify.js-priceValue = auction.partial_value
+      span.box-lastBidder-name.js-currentWinner = auction.decorate.last_bidder
       .box-lastBidder
-        .box-lastBidder-name.js-currentWinner = auction.decorate.last_bidder
-        .box-lastBidder-label Vencedor
+        .box-price-big.-box-price-big-notify.js-priceValue = auction.partial_value 
+        .box-lastBidder-label PONTOS BÔNUS
 
 / box de adiado
 - content_for :fail_box, flush: true
